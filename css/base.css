@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+    width: 983px;
+    margin: 0 auto; 
+}
+
+.container:after {
+	display: table;
+	content: '';
+	clear: both;    
+}
+
+.claerfix {
+	display: table;
+	content: '';
+	clear: both; 
+}
+

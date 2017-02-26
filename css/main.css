@@ -1,0 +1,303 @@
+body {
+    font-family: Tahoma, Arial,/*Helvetica,*/ sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    background-color: #fff;
+    margin-top: 36px;
+    color: #393939;
+}
+a {
+	color: #393939;
+}
+.top_header	{
+	height: 34px;
+	margin-bottom: 37px;
+}
+
+.logo {
+	position: relative;
+	float: left;
+	width: 121px;
+	transition: 1s;
+}
+
+.logo > a {
+	text-decoration: none;
+}
+
+.logo_link {
+	position: absolute;
+    background: url(../images/logo.png) no-repeat center center;
+    width: 121px;
+    height: 34px;
+    background-size: contain;
+}
+
+.logo_link:hover {
+	width: 92%;
+    transition: 1s;
+}
+
+.contacts {
+	float: right;
+}
+
+
+.contacts_phone {
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.contacts:before {
+	display: inline-block;
+    vertical-align: middle;
+   	width: 18px;
+    height: 28px;
+    margin-right: 7px;
+    content: ' ';
+    background: url(../images/ico-fone.png) no-repeat center;
+    background-size: cover;
+}
+
+.menu {
+	height: 42px;
+	text-align: justify;
+	padding-left: 0;
+	margin: 0;
+	background-color: #f2f2f2;
+}
+
+.title {
+	margin-top: 40px;
+}
+
+.menu > li {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.menu_item:hover {
+	text-decoration: underline;
+    color: #ffffff;
+}
+
+.menu > li > a {
+	padding: 10px 0 ;
+	display: block;
+	text-decoration: none;
+	font-size: 15px;
+	color: #393939;
+}
+
+.menu:after {
+	display: inline-block;
+	content: '';
+	width: 100%;
+}
+
+.breadcrumb {
+	padding: 0px;
+	margin-top: 17px;
+/*	margin-bottom: 40px;*/
+}
+
+h1 {
+	margin-bottom: 36px;
+}
+
+.breadcrumbs li {
+	padding-right: 7px;
+	display: inline-block;
+}
+
+.breadcrumb_item a{
+	font-size: 11px;
+} 
+
+.breadcrumb_item2 a{
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.breadcrumb_item2:before {
+	display: inline-block;
+    vertical-align: middle;
+   	width: 5px;
+   	margin-right: 17px;
+    height: 5px;
+    content: ' ';
+    background: url(../images/arrow.png) no-repeat center;
+    background-size: cover;
+}
+
+.content_menu {
+	float: left;
+	width: 71%;
+}
+
+
+
+.clocks {
+	padding-left: 0;
+	list-style-image: url(../images/li.png);
+    list-style-position: inside;
+}
+
+.clocks_item {
+	margin-bottom: 18px;
+}
+
+.clocks_item a {
+	color: #24b5e1;
+	font-size: 12px;
+}
+
+.clocks_menu {
+	padding: 0px;
+	display: inline-block;
+}
+
+.clocks_menu_item {
+	display: inline-block;
+}
+
+.clocks_menu_item:nth-child(1) {
+	padding-right:22px;
+}
+
+.clocks_menu_item:nth-child(2) {
+	padding-right:22px;
+}
+
+p {
+	text-align: justify;
+}
+
+table {
+	padding: 0 8px;
+	width: 100%;
+}
+
+table a {
+	text-align: center;
+	color: #24b6e1;
+
+}
+
+ .two_column a {
+ 	text-decoration: none;
+ 	color: #24b6e1;
+ }
+
+th, td {
+	padding-bottom: 20px;
+}
+.column {
+	color: #7d7d7d;
+}
+
+.sidebar {
+	width: 24%;
+	margin-top: 66px;
+	float: right;
+
+}
+
+.copyright {
+	margin-top: 5px;
+	float: left;
+}
+
+.social_menu {
+	float: right;
+	margin: 0;
+
+}
+
+.social_menu_item {
+	display: inline-block;
+
+}
+ .copyright a {
+ 	color: #24b6e1;
+ }
+
+
+
+
+.header_search_input {
+	width: 100%;
+    padding: 7px 22px 7px 6px; 
+    font-size: 12px;
+    color: #000000;
+    outline: none;
+    display: block;
+    border: 1px solid #c8c8c8;
+    height: 27px;
+}
+
+.header_search {
+	position: relative;
+	width: 100%;
+
+}
+.header_search_input-btn {
+	position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 5px;
+    background: transparent url(../images/loop.png) no-repeat center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.news a {
+	color: #24b5e1;
+}
+
+
+.all_news a {
+	margin-top: 26px;
+	float: right;
+	padding: 10px 15px;
+	background-color: #e9e9e9;
+	border-radius: 2px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.subscription {
+	margin-top: 45px;
+}
+
+.subscription h2 {
+	margin-top: 113px;
+}
+
+.subscription_input {
+	width: 100%;
+    padding: 7px 22px 7px 6px;
+    font-size: 12px;
+    color: #000000;
+    outline: none;
+    display: block;
+    border: 1px solid #c8c8c8;
+    margin-bottom: 15px;
+    height: 27px;
+    font-size: 11px;
+}
+
+.subscription a {
+	padding: 8px 16px;
+	background-color: #24b5e1;
+	float: right;
+	border-radius: 2px;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+}
